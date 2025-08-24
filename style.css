@@ -100,8 +100,8 @@ img{max-width:100%; display:block}
     text-align: center;
   }
   .hero__image img {
-    width: 150px;
-    height: 150px;
+    width: auto;
+    height: auto;
   }
 }
 
@@ -239,3 +239,4 @@ input:focus, textarea:focus{ border-color:var(--accent); background:rgba(0,0,0,.
 @media (prefers-reduced-motion: reduce){
   *{ animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important }
 }
+
