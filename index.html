@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keerthana — Portfolio</title>
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="profile.jpg" />
+</head>
+<body>
+  <!-- Subtle overlay for readability -->
+  <div class="overlay"></div>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <a href="#home" class="logo" aria-label="Keerthana Home">
+      <span class="accent">Keerthana</span> Seethi
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">
+        <i class="bx bx-menu"></i>
+      </button>
+      <ul class="nav-list">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+<section id="home" class="section ">
+  <div  class="hero-box container glass" data-aos="fade-up">
+    <div class="hero__content">
+      <h1 class="hero__title" data-aos="fade-right" data-aos-duration="900">
+        Hi, I’m <span class="accent">Keerthana</span>
+      </h1>
+
+      <h2 class="hero__subtitle" data-aos="fade-left" data-aos-duration="900" data-aos-delay="150">
+        <span class="typewrite" data-words='["Developer ","Cybersecurity Enthusiast ","Problem Solver "]'></span>
+        <span class="cursor">|</span>
+      </h2>
+
+      <p class="hero__desc" data-aos="fade-up" data-aos-duration="900" data-aos-delay="250">
+        A Computer Science and Engineering student in Cyber Security. Passionate about web development, cloud technologies, and cybersecurity.
+      </p>
+
+      <div class="hero__actions" data-aos="zoom-in" data-aos-delay="350">
+        <a href="#contact" class="btn primary">Hire Me</a>
+        <a href="#projects" class="btn ghost">View Projects</a>
+      </div>
+
+      <ul class="socials" data-aos="fade-up" data-aos-delay="450">
+        <li><a href="https://github.com/keerthanaseethi" target="_blank" aria-label="GitHub"><i class="bx bxl-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/keerthana-s-111374293" target="_blank" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a></li>
+        <li><a href="mailto:keerthanaseethi@gmail.com" target="_blank" aria-label="Gmail"><i class="bx bxl-gmail"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="hero__image" data-aos="zoom-in-left" data-aos-duration="1500">
+      <img src="profile.jpg" alt="Keerthana profile" />
+    </div>
+  </div>
+</section>
+
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class=" container glass" class = "hero-box glass" data-aos="fade-up">
+      <h2 class="section-title">About Me</h2>
+      <p class="muted">A curious Computer Science student driven by a passion for technology, I strive to create applications that are not only secure but also intuitive and user-friendly. With a love for problem-solving and continuous learning, I turn ideas into impactful digital solutions.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-card" data-aos="zoom-in" data-aos-delay="100">
+          <i class="bx bx-shield-quarter"></i>
+          <h3>Cybersecurity</h3>
+          <p>Knowledge in secure design practices, threat mitigation, and strengthening applications against common vulnerabilities.</p>
+        </div>
+        <div class="about-card" data-aos="zoom-in" data-aos-delay="200">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>Designing and developing responsive, user-friendly websites with clean code, accessibility, and smooth user experiences.</p>
+        </div>
+        <div class="about-card" data-aos="zoom-in" data-aos-delay="300">
+          <i class="bx bx-data"></i>
+          <h3>Cloud Computing</h3>
+          <p>Familiar with deploying, managing, and scaling applications on the cloud with an emphasis on reliability and efficiency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container glass" data-aos="fade-up">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="cards">
+        <article class="card glass" data-aos="fade-up" data-aos-delay="100">
+          <div class="card-header">
+            <i class="bx bx-book-open"></i>
+            <h3>Weather Report with Map</h3>
+          </div>
+          <p class="muted">An interactive web app to check real-time weather by city or map location.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+          <a href="https://github.com/keerthanaseethi/WeatherReport" class="card-cta">GitHub Repo Link →</a>
+        </article>
+
+        <article class="card glass" data-aos="fade-up" data-aos-delay="300">
+          <div class="card-header">
+            <i class="bx bx-microphone"></i>
+            <h3>Speech-to-Text + Translation</h3>
+          </div>
+          <p class="muted">Real-time transcript & Telugu→English translation panel.</p>
+          <div class="tags">
+            <span>Web</span><span>Cloud</span><span>Realtime</span>
+          </div>
+          
+        </article>
+
+        <article class="card glass" data-aos="fade-up" data-aos-delay="200">
+          <div class="card-header">
+            <i class="bx bx-package"></i>
+            <h3>Simple Calculator</h3>
+          </div>
+          <p class="muted">A simple calculator that performs basic arithmetic operations with a clean and user-friendly interface.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+          <a href="https://github.com/keerthanaseethi/calculator" class="card-cta">GitHub Repo Link →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container glass" data-aos="fade-up">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills">
+        <div class="skill">
+          <div class="skill-top">
+            <span>Web Development</span><span class="skill-val">90%</span>
+          </div>
+          <div class="skill-bar"><span style="--w:90%"></span></div>
+        </div>
+        <div class="skill">
+          <div class="skill-top">
+            <span>Cybersecurity</span><span class="skill-val">70%</span>
+          </div>
+          <div class="skill-bar"><span style="--w:70%"></span></div>
+        </div>
+        <div class="skill">
+          <div class="skill-top">
+            <span>Cloud computing</span><span class="skill-val">75%</span>
+          </div>
+          <div class="skill-bar"><span style="--w:75%"></span></div>
+        </div>
+        <div class="skill">
+          <div class="skill-top">
+            <span>Problem Solving</span><span class="skill-val">85%</span>
+          </div>
+          <div class="skill-bar"><span style="--w:85%"></span></div>
+        </div>
+      </div>
+
+      <div class="badges">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React JS</span><span>C</span><span>SQL</span><span>Cloud secuirty</span><span>Python</span><span>Java</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container glass" data-aos="fade-up">
+      <h2 class="section-title">Contact</h2>
+      <p class="muted">Interested in collaborating or hiring? Drop a message!</p>
+
+      <form class="contact" onsubmit="return handleContact(event)">
+        <div class="grid-two">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="your@email.com" required />
+          </label>
+        </div>
+
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" placeholder="How can I help?" required></textarea>
+        </label>
+
+        <div class="contact-actions">
+          <button class="btn primary" type="submit">Send Message</button>
+          <a class="btn ghost" href="mailto:keerthanaseethi@gmail.com">Email Directly</a>
+        </div>
+      </form>
+
+      <ul class="socials socials--contact">
+        <li><a href="https://github.com/keerthanaseethi" target="_blank"><i class="bx bxl-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/keerthana-s-111374293" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+        <li><a href="mailto:keerthanaseethi@gmail.com" target="_blank"><i class="bx bxl-gmail"></i></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Scroll to Top -->
+  <button id="scrollTopBtn" aria-label="Scroll to top"><i class="bx bx-up-arrow-alt"></i></button>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
